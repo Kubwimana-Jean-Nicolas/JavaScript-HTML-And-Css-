@@ -1,0 +1,97 @@
+body {
+    background-color: #ac8e95;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;       /*control how the total width and height of an element are calculated. It determines whether the width and height of an element include its padding and border.*/
+    display:flex;                /*handle both horizontal and vertical alignment. align items within a container*/
+    justify-content: center;    /* takes all the staff in the center */
+    align-items: center;
+    height: 100vh;             /* this is used on put the content into the middle */
+    
+}
+
+.container {
+        width: 500px;
+        background-color: #a07083;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0,2);
+        border: 2px solid #6e475a;
+        text-align: center;       /*THIS ONE BRINGS THE WRITEN WORD IN THE DIV LOCATED TO LABELS TO BE IN THE CENTER*/
+
+}
+
+h2{
+    color: #eecbdc;
+    font-size: 28px;
+    margin-bottom: 30px;
+    
+}
+
+.love-calculator {    /*THIS COME FROM SECOND DIV CONTAINS LABLES AND IN PUT*/
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#eecbdc;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #130203;
+}
+
+button {
+    background-color: #750b3e;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+#Result {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #eecbdc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
